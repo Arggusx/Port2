@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <section id="projects" className="section py-20">
+        <section id="projects" className="section py-20 bg-checkered">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center neon-text-purple">
                     <span className="neon-text-blue">&lt;</span> Meus Projetos <span className="neon-text-blue">/&gt;</span>
@@ -50,7 +50,7 @@ const Projects = () => {
 
 const ProjectCard = ({ icon, title, desc, techs, color }: { icon: string; title: string; desc: string; techs: string[]; color: string }) => {
     return (
-        <div className={`project-card rounded-lg overflow-hidden neon-border-${color}`}>
+        <div className={`project-card rounded-lg overflow-hidden neon-border-${color} bg-gray-700`}>
             <div className={`h-48 bg-gradient-to-r from-${color}-900 to-purple-900 flex items-center justify-center`}>
                 <i className={`fas fa-${icon} text-6xl text-neon-${color}`}></i>
             </div>

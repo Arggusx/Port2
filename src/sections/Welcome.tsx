@@ -1,6 +1,6 @@
 function Welcome() {
     return (
-        <section id="welcome" className="section flex items-center justify-center bg-black">
+        <section id="welcome" className="section flex items-center justify-centerk pt-10 bg-checkered">
             <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4 neon-text-blue">
@@ -18,10 +18,11 @@ function Welcome() {
                 <div className="md:w-1/2 flex justify-center">
                     <div className="relative">
                         <div className="absolute inset-0 rounded-full bg-[var(--neon-blue)] blur-xl opacity-30 animate-pulse"></div>
-                        {/*<img src="https://via.placeholder.com/400x400" alt="Profile" className="profile-img w-64 h-64 md:w-80 md:h-80 object-cover relative" />*/}
+                        <img src="Coding.gif" alt="Profile" className=" w-100 h-100 rounded-full object-cover relative transition-transform duration-300 hover:rotate-3 hover:scale-110" />
                     </div>
                 </div>
             </div>
+            <hr className="h-50"></hr>
         </section>
     );
 }
