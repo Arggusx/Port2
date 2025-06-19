@@ -1,27 +1,21 @@
+
+
 const toolsData = [
     { name: 'React', icon: 'react', color: 'blue' },
     { name: 'JavaScript', icon: 'js', color: 'blue' },
     { name: 'HTML5', icon: 'html5', color: 'blue' },
     { name: 'CSS3', icon: 'css3-alt', color: 'blue' },
-    { name: 'Vue.js', icon: 'vuejs', color: 'blue' },
-    { name: 'Sass', icon: 'sass', color: 'blue' },
     { name: 'Node.js', icon: 'node', color: 'pink' },
     { name: 'MongoDB', icon: 'database', color: 'pink' },
     { name: 'Python', icon: 'python', color: 'pink' },
     { name: 'Express', icon: 'server', color: 'pink' },
-    { name: 'PHP', icon: 'php', color: 'pink' },
     { name: 'MySQL', icon: 'database', color: 'pink' },
     { name: 'Git', icon: 'git-alt', color: 'purple' },
-    { name: 'Docker', icon: 'docker', color: 'purple' },
-    { name: 'AWS', icon: 'aws', color: 'purple' },
-    { name: 'Figma', icon: 'figma', color: 'purple' },
-    { name: 'CLI', icon: 'terminal', color: 'purple' },
-    { name: 'Linux', icon: 'linux', color: 'purple' },
 ];
 
 const Tools = () => {
     return (
-        <section id="tools" className="section py-20 bg-black bg-opacity-50">
+        <section id="tools" className="tools section py-20 bg-checkered bg-opacity-50">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center neon-text-blue">
                     <span className="neon-text-pink">&lt;</span> Ferramentas & Tecnologias <span className="neon-text-pink">/&gt;</span>
@@ -34,7 +28,7 @@ const Tools = () => {
                     {toolsData.map((tool, idx) => (
                         <div
                             key={idx}
-                            className={`text-center p-4 neon-border-${tool.color} rounded-lg`}
+                            className={`text-center p-4 neon-border-${tool.color} rounded-lg transition-transform duration-300 hover:scale-110`}
                         >
                             <i className={`fab fa-${tool.icon} text-5xl mb-3 text-neon-${tool.color} tech-icon`}></i>
                             <h3 className={`font-bold neon-text-${tool.color}`}>{tool.name}</h3>
