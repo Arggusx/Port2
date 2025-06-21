@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
 
 /* Fontes base */
 body {
@@ -11,9 +11,68 @@ body {
   background-color: rgba(99, 102, 241, 0.3);
 }
 
+/* COR PERSONALIZADA DOS TEXTOS */
+.text-shadow-python {
+  text-shadow: 0 0 2px #3776AB, 0 0 5px #3776AB;
+}
+
+.text-shadow-mysql {
+  text-shadow: 0 0 2px #ff801e, 0 0 5px #ff801e;
+
+}
+
+.text-shadow-git {
+  text-shadow: 0 0 2px #F05032, 0 0 5px #F05032
+}
+
+.text-shadow-post {
+  text-shadow: 0 0 2px #336791, 0 0 5px #336791;
+}
+
+.text-shadow-ts {
+  text-shadow: 0 0 2px #3178C6, 0 0 5px #3178C6;
+}
+
+.text-shadow-c {
+  text-shadow: 0 0 2px #642e8a, 0 0 5px #642e8a;
+}
+
+.text-shadow-vite {
+  text-shadow: 0 0 2px #FFD43B, 0 0 5px #FFD43B;
+}
+
+.text-shadow-tail {
+  text-shadow: 0 0 2px #06B6D4, 0 0 5px #06B6D4;
+}
+
+.text-shadow-red {
+  text-shadow: 0 0 5px red, 0 0 10px red;
+}
+
+.text-shadow-node {
+  text-shadow: 0 0 2px #339933, 0 0 5px #339933;
+}
+
+.text-shadow-js {
+  text-shadow: 0 0 2px #e0f963, 0 0 5px #e0f963;
+}
+
+.text-shadow-css {
+  text-shadow: 0 0 2px skyblue, 0 0 5px skyblue;
+}
+
+.text-shadow-react {
+  text-shadow: 0 0 5px #61DAFB, 0 0 10px #61DAFB;
+}
+
 .neon-text-blue {
   color: #38bdf8;
   text-shadow: 0 0 5px #38bdf8, 0 0 10px #38bdf8;
+}
+
+.neon-text-dark-blue {
+  color: rgb(99, 102, 241);
+  text-shadow: 0 0 5px rgb(99, 102, 241), 0 0 10px rgb(99, 102, 241);
 }
 
 .neon-text-pink {
@@ -26,9 +85,80 @@ body {
   text-shadow: 0 0 5px #a855f7, 0 0 10px #a855f7;
 }
 
+/* COR PERSONALIZADA DAS BORDAS */
+.neon-border-python {
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 5px #ffd43b;
+}
+
+.neon-border-mysql {
+  border: 2px solid #a855f7;
+  box-shadow: 0 0 10px #F05032;
+}
+
+.neon-border-git {
+  border: 2px solid #F05032;
+  box-shadow: 0 0 5px #F05032;
+}
+
+.neon-border-post {
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 5px #38bdf8;
+}
+
+.neon-border-ts {
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 5px #38bdf8;
+}
+
+.neon-border-c {
+  border: 2px solid #642e8a;
+  box-shadow: 0 0 5px #642e8a;
+}
+
+.neon-border-vite {
+  border: 2px solid #ffd43b;
+  box-shadow: 0 0 5px #38bdf8;
+}
+
+.neon-border-tail {
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 5px #38bdf8;
+}
+
+
+
+
+
+
 .neon-border-blue {
   border: 2px solid #38bdf8;
   box-shadow: 0 0 5px #38bdf8;
+}
+
+.neon-border-node {
+  border: 2px solid #339933;
+  box-shadow: 0 0 5px #339933;
+}
+
+.neon-border-css {
+  border: 2px solid skyblue;
+  box-shadow: 0 0 5px skyblue;
+}
+
+.neon-border-js {
+  border: 2px solid #e0f963;
+  box-shadow: 0 0 5px #e0f963;
+}
+
+.neon-border-react {
+  border: 2px solid #61DAFB;
+  box-shadow: 0 0 5px #61DAFB;
+}
+
+.neon-border-red {
+  border: 2px solid rgb(250, 56, 56);
+  box-shadow: 0 0 5px rgb(250, 56, 56);
 }
 
 .neon-border-pink {
@@ -78,9 +208,9 @@ body {
 }
 
 .bg-checkered {
-  background-color: rgba(99, 102, 241, 0.3);
+  background-color: #030014;
   background-image:
-    linear-gradient(0deg, rgba(0, 173, 248, 0.25) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(56, 189, 248, 0.25) 1px, transparent 1px);
+    linear-gradient(0deg, rgba(0, 173, 248, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
   background-size: 25px 25px;
 }
