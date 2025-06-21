@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-6 md:mb-0">
-                        <h2 className="text-2xl font-bold neon-text-blue mb-4">&lt;DevNeon/&gt;</h2>
+                        <h2 className="text-2xl font-bold neon-text-blue mb-4">&lt; Douglas /&gt;</h2>
                         <p className="text-gray-400 max-w-md">
                             Criando experiências digitais impressionantes com paixão por tecnologia e design inovador.
                         </p>
@@ -30,16 +30,16 @@ const Footer = () => {
                             ))}
                         </div>
                         <p className="text-gray-400">
-                            <i className="fas fa-envelope mr-2"></i> contato@devneon.com
+                            <i className="fas fa-envelope mr-2"></i> dougclasher9@gmail.com
                         </p>
                         <p className="text-gray-400 mt-2">
-                            <i className="fas fa-phone mr-2"></i> +55 (11) 98765-4321
+                            <i className="fas fa-phone mr-2"></i> +55 (82) 99612-5491
                         </p>
                     </div>
                 </div>
 
                 <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500">
-                    <p>&copy; 2023 DevNeon. Todos os direitos reservados.</p>
+                    <p>&copy; 2025 Arggusx. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>
